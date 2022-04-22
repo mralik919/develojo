@@ -1,0 +1,64 @@
+@media all and (min-width:1150px){
+    .tsprnt:hover{
+        background-color: rgb(121, 13, 13);
+        border-color: transparent;
+    }
+    .green:hover{
+        border: 2;
+        background-color: transparent;
+    }
+    .nav-link:hover{
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+    .second-item:hover{
+        background-color: rgb(121, 13, 13);
+        color: white;
+        transform: scale(1.05);
+        box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.5);
+    }
+    .second-item:hover, .readmore{
+        border-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+    .readmore:hover{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    .second-item:hover .icon{
+        fill: white;
+    }
+}
+
+@media all and (max-width:768px){
+    .nav-wrapper{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .logo, .search-wrapper, .topnav{
+        display: inline-block;
+    }
+    .h1{
+        font-size: 8vw;
+    }
+    .header-btn{
+        margin-top: 15px;
+        width: 90vw;
+        height: 60px;
+    }
+    .header-btn + .header-btn{
+        margin-left: 0;
+    }
+    .section-subtitle{
+        width: 85%;
+    }
+    .second-item, .first-item{
+        width: 90%;
+        margin: 20px auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .first-box{
+        flex-wrap: wrap;
+    }
+}
